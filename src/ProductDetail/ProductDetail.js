@@ -195,7 +195,6 @@ and unauthorized users cannot manipulate it</li>
 <li>Enabled users to browse and enroll in various courses, providing a seamless and intuitive user experience.
 </li>
 <li>Integrated Stripe payment gateway allows authorized users to make secure payments for course enrollments.</li>
-
                                 <div className="technology-tag">
                                 <button>NextJS</button>
                                 <button>Typescript</button>
