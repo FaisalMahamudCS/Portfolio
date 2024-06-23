@@ -1,14 +1,18 @@
 import React from 'react';
 import { Slide } from 'react-reveal';
-import { Link } from 'react-router-dom';
+import { Link ,NavLink} from 'react-router-dom';
 
 const Header = () => {
     return (
         <div className="mb-5">
+
+ 
+
+
             <nav className="navbar px-3 py-0 navbar-expand-lg navbar-dark bg-dark text-white header fixed-top">
                 <div className="container-fluid">
-                    <Link to="/" className="navbar-brand">
-                        <h1 className="logo">Faisal </h1>
+                <Link to="/" className="navbar-brand">
+                        <h3 className="logo text-warning">Faisal </h3>
                     </Link>
                     <button
                         className="navbar-toggler mobile-expand-menu"
@@ -23,6 +27,7 @@ const Header = () => {
                             <i class="fas fa-bars"></i>
                         </span>
                     </button>
+                    
                     <Slide right>
                         <div
                             className="collapse navbar-collapse justify-content-end"
@@ -66,9 +71,9 @@ const Header = () => {
                                 </li>
                                 <li className="nav-item mt-2 mb-5 mb-sm-0">
                                     <a
-                                        href="https://drive.google.com/u/2/uc?id=18QQL47b662IUSwf-DpkFcv_7n9qccqcj&export=download"
+                                        href="https://drive.google.com/uc?id=1c0N9mbY07TJUGoHwN1LCCv7SBebmHjLI&export=download"
                                         download
-                                        className="resume"
+                                        className=" resume btn btn-warning"
                                     >
                                         <span>
                                             <i className="fas fa-file-download"></i>
@@ -81,6 +86,30 @@ const Header = () => {
                     </Slide>
                 </div>
             </nav>
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     );
 };

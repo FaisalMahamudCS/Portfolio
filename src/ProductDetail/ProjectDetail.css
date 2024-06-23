@@ -1,0 +1,33 @@
+.project-info{
+
+    padding: 15px 35px;
+    margin-left: -45px;
+    z-index: 10;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.technology-tag a, button{
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 7px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.project-icon a{
+    background-color: rgb(220, 255, 213);
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: .6s;
+}
+.project-icon a:hover{
+    background-color: #ff2c37;
+    color: lightgray;
+}
+.project-icon span{
+    margin-right: 7px;
+}
