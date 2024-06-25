@@ -17,8 +17,8 @@ const Banner = () => {
                         <Typewriter
                             options={{
                                 strings: [
-                                    "Front End Developer",
-                                    "MERN Stack Developer",
+                                    "Full Stack Developer",
+                                    "MERN/PERN Stack Developer",
                                     "Programmer",
                                     "Quick Learner",
                                 ],
@@ -28,9 +28,9 @@ const Banner = () => {
                         />
                     </h3>
                     <p>
-                       I am a Front End Developer with Deep understanding of MERN Stack.I am skilled at 
+                       I am a Full Stack Developer with Deep understanding of MERN,PERN Stack.I am skilled at 
                        React JS, Express JS , JavaScript (ES6), Firebase, API,Bootstrap,
-Tailwind,React Hook ,React Query,SPA,JWT, HTML, CSS,MongoDB , MySQL.I am comfortable at Node JS, Laravel,Php,C,C++
+Tailwind,React Hook ,React Query,SPA,JWT, HTML, CSS,MongoDB , MySQL.I am comfortable at Node JS,Php,C,C++
 
                     </p>
 
@@ -63,7 +63,7 @@ Tailwind,React Hook ,React Query,SPA,JWT, HTML, CSS,MongoDB , MySQL.I am comfort
 
                     
                     <a 
-                                        href="https://drive.google.com/uc?id=1c0N9mbY07TJUGoHwN1LCCv7SBebmHjLI&export=download"
+                                        href="https://drive.google.com/file/d/1do6jgosyGrv9joAzH9vZ_jkZqvpV_ly2&export=download"
                                         download
                                         className="btn btn-warning  mt-3"
                                     >

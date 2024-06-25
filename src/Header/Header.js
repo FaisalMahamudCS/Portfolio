@@ -71,7 +71,7 @@ const Header = () => {
                                 </li>
                                 <li className="nav-item mt-2 mb-5 mb-sm-0">
                                     <a
-                                        href="https://drive.google.com/uc?id=1c0N9mbY07TJUGoHwN1LCCv7SBebmHjLI&export=download"
+                                        href="https://drive.google.com/uc?id=1do6jgosyGrv9joAzH9vZ_jkZqvpV_ly2&export=download"
                                         download
                                         className=" resume btn btn-warning"
                                     >
