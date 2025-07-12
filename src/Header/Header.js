@@ -63,7 +63,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item mt-2 mb-5 mb-sm-0">
                   <a
-                    href="https://drive.google.com/uc?id=1do6jgosyGrv9joAzH9vZ_jkZqvpV_ly2&export=download"
+                    href="https://drive.google.com/uc?export=download&id=1RxA1WoIduLTmuVZN7b5ba88ajcF1k5ke"
                     download
                     className=" resume btn btn-warning"
                   >

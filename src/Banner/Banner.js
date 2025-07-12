@@ -188,7 +188,7 @@ const Banner = () => {
 
           <a
             ref={buttonRef}
-            href="https://drive.google.com/file/d/1do6jgosyGrv9joAzH9vZ_jkZqvpV_ly2&export=download"
+            href="https://drive.google.com/uc?export=download&id=1RxA1WoIduLTmuVZN7b5ba88ajcF1k5ke"
             download
             className="download-btn"
           >
