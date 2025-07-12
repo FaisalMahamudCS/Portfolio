@@ -105,6 +105,25 @@
     min-height: 2.5rem;
 }
 
+.typewriter-text {
+    color: #ffc107;
+}
+
+.cursor {
+    color: #ffc107;
+    animation: blink 1s infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
+}
+
 .description-text {
     font-size: 1.1rem;
     line-height: 1.8;

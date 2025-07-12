@@ -11,17 +11,8 @@ import { Carousel } from "react-bootstrap";
 
 const ProductDetail = (props) => {
   //  const {name,image,description}=projectDetail;
-  const {
-    _id,
-    name,
-    image,
-    image1,
-    image2,
-    description,
-    live,
-    client,
-    server,
-  } = props.AllProjects;
+  const { _id, name, image, image1, image2, description, server } =
+    props.AllProjects;
   const { id } = useParams();
   console.log("ID", id, name);
   console.log(_id);

@@ -1,7 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Typewriter from "typewriter-effect";
 import { AiOutlineMail } from "react-icons/ai";
 import { GrLinkedin } from "react-icons/gr";
 import "./Banner.css";
@@ -16,6 +15,15 @@ const Banner = () => {
   const imageRef = useRef(null);
   const socialRef = useRef(null);
   const buttonRef = useRef(null);
+  const typewriterRef = useRef(null);
+  const [currentTextIndex, setCurrentTextIndex] = useState(0);
+
+  const typewriterTexts = [
+    "Senior Full Stack Developer",
+    "PERN Stack Specialist",
+    "Agricultural Technology Expert",
+    "DevOps Engineer",
+  ];
 
   useEffect(() => {
     const tl = gsap.timeline();
@@ -118,6 +126,43 @@ const Banner = () => {
     };
   }, []);
 
+  // Typewriter effect
+  useEffect(() => {
+    let currentIndex = 0;
+    let currentText = "";
+    let isDeleting = false;
+    let typeSpeed = 100;
+
+    const typeWriter = () => {
+      const fullText = typewriterTexts[currentIndex];
+
+      if (isDeleting) {
+        currentText = fullText.substring(0, currentText.length - 1);
+        typeSpeed = 50;
+      } else {
+        currentText = fullText.substring(0, currentText.length + 1);
+        typeSpeed = 100;
+      }
+
+      if (typewriterRef.current) {
+        typewriterRef.current.textContent = currentText;
+      }
+
+      if (!isDeleting && currentText === fullText) {
+        typeSpeed = 2000; // Wait before deleting
+        isDeleting = true;
+      } else if (isDeleting && currentText === "") {
+        isDeleting = false;
+        currentIndex = (currentIndex + 1) % typewriterTexts.length;
+        typeSpeed = 500; // Wait before typing next
+      }
+
+      setTimeout(typeWriter, typeSpeed);
+    };
+
+    typeWriter();
+  }, []);
+
   return (
     <div ref={bannerRef} className="banner-container">
       <div className="banner-background">
@@ -138,18 +183,8 @@ const Banner = () => {
 
           <div className="typewriter-container">
             <h3>
-              <Typewriter
-                options={{
-                  strings: [
-                    "Senior Full Stack Developer",
-                    "PERN Stack Specialist",
-                    "Agricultural Technology Expert",
-                    "DevOps Engineer",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
+              <span ref={typewriterRef} className="typewriter-text"></span>
+              <span className="cursor">|</span>
             </h3>
           </div>
 
@@ -197,15 +232,12 @@ const Banner = () => {
           </a>
         </div>
 
-        <div
-          ref={imageRef}
-          className="col-12 col-md-6 banner-image my-3 my-md-0"
-        >
-          <div className="image-container">
+        <div ref={imageRef} className="col-12 col-md-6 banner-image-container">
+          <div className="profile-image-wrapper">
             <img
-              className="profile-image"
-              src="https://i.ibb.co/r6Ssh0w/CV-image-removebg-1-removebg-preview.png"
               alt="Faisal Mahamud"
+              className="profile-image"
+              src="https://i.ibb.co/Kcx5rkvX/Whats-App-Image-2025-02-17-at-11-01-41-6a6c9bee.jpg"
             />
             <div className="image-glow"></div>
           </div>
