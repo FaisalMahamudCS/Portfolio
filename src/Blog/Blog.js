@@ -1,5 +1,5 @@
 import React from "react";
-import { DiJavascript1 } from "react-icons/di";
+
 const Blog = () => {
   return (
     <div className="container mt-2 mb-2">

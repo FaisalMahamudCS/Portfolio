@@ -2,23 +2,23 @@
     {
         "id": 1,
         "name": "Agricultural Marketplace Platform",
-        "image": "https://i.ibb.co/yB41bg6/Screenshot-938.png",
+        "image": "https://i.ibb.co/g14HfQt/Whats-App-Image-2025-07-12-at-23-14-34-6319b222.jpg",
         "description": "Comprehensive agro-tech marketplace with real-time market price tracking, interactive data visualizations using Chart.js, and farmer-expert consultation system with AI-powered chatbot.",
         "live": "https://agrigate-network.com/"
     },
     {
         "id": 2,
         "name": "Enterprise ERP System",
-        "image": "https://i.ibb.co/2Y1Y8f5/Screenshot-3569.png",
+        "image": "https://i.ibb.co/3mv7gmXv/Screenshot-2025-07-12-225456.png",
         "description": "Full-scale ERP with employee management, inventory tracking, stock management, optimized PostgreSQL schemas with JWT authentication and RBAC.",
-        "live": "https://erp.agrigate-network.com/"
+        "live": "https://erp.agrigate.network/"
     },
     {
         "id": 3,
         "name": "TWIN Flow - Cardiac Care Platform",
-        "image": "https://i.ibb.co/YNzqD1Y/Screenshot-941.png",
+        "image": "https://i.ibb.co/vF0ZcBQ/Screenshot-2025-07-12-230912.png",
         "description": "HIPAA-compliant patient enrollment and service management modules with interactive dashboards for cardiac rhythm analysis and device management systems.",
-        "live": "https://twinflow-healthcare.com/"
+        "live": "https://twinflow.techindia.com/"
     },
     {
         "id": 4,
@@ -29,29 +29,50 @@
     },
     {
         "id": 5,
+        "name": "Melbourne Limolink",
+        "image": "https://i.ibb.co/gZKSSY0H/Screenshot-2025-07-12-231938.png",
+        "description": "Comprehensive web application for premium chauffeur service provider with real-time booking, fleet management, payment integration, and role-based access control.",
+        "live": "https://melbournelimolink.com.au/"
+    },
+    {
+        "id": 6,
+        "name": "Permisgo - Driving School Platform",
+        "image": "https://i.ibb.co/bR1gkx55/Screenshot-2025-07-12-232720.png",
+        "description": "Platform for driving school operations with lesson scheduling, student-instructor portals, payment integration, and progress tracking system.",
+        "live": "https://permisgo.fr/"
+    },
+    {
+        "id": 7,
+        "name": "Science Master (Ed-Tech)",
+        "image": "https://i.ibb.co/jPcD8GzS/Whats-App-Image-2025-07-12-at-23-33-36-f528564a.jpg",
+        "description": "Educational platform with interactive exams, batch assignments, secure payment processing, and comprehensive learning management system.",
+        "live": "https://sciencemaster.com/"
+    },
+    {
+        "id": 8,
         "name": "Computer Assembler",
-        "image": "https://i.ibb.co/yB41bg6/Screenshot-938.png",
+        "image": "https://i.ibb.co/QpDj8GW/Screenshot-939.png",
         "description": "Computer Assembler is a manufacturer website. Manufacturer can sell product, delete product",
         "live": "https://computer-manufacturer.web.app/"
     },
     {
-        "id": 6,
+        "id": 9,
         "name": "Tennis Inventory",
-        "image": "https://i.ibb.co/2Y1Y8f5/Screenshot-3569.png",
+        "image": "https://i.ibb.co/yB41bg6/Screenshot-938.png",
         "description": "Tennis inventory is an inventory website. User can login and restock product",
         "live": "https://sports-gear-inventory.web.app/"
     },
     {
-        "id": 7,
+        "id": 10,
         "name": "Faisal Photography",
-        "image": "https://i.ibb.co/YNzqD1Y/Screenshot-941.png",
+        "image": "https://i.ibb.co/2Y1Y8f5/Screenshot-3569.png",
         "description": "Faisal photography is an independent photographer website. It shows his work and takes service",
         "live": "https://fir-auth-photo.web.app/"
     },
     {
-        "id": 8,
+        "id": 11,
         "name": "Skillamplify",
-        "image": "https://i.ibb.co/QpDj8GW/Screenshot-939.png",
+        "image": "https://i.ibb.co/YNzqD1Y/Screenshot-941.png",
         "description": "Skillamplify is an E-learning website. User can login and Enroll Courses and learn",
         "live": "https://sports-gear-inventory.web.app/"
     }

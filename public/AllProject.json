@@ -45,6 +45,39 @@
     },
     {
         "_id": 5,
+        "name": "Melbourne Limolink",
+        "image": "https://i.ibb.co/DYXzGkr/Screenshot-949.png",
+        "image1": "https://i.ibb.co/sq2jGmw/Screenshot-950.png",
+        "image2": "https://i.ibb.co/FXtBqgt/Screenshot-951.png",
+        "description": "Comprehensive web application for premium chauffeur service provider with real-time booking, fleet management, payment integration, and role-based access control.",
+        "live": "https://melbournelimolink.com/",
+        "client": "https://github.com/FaisalMahamudCS/melbourne-limolink-client",
+        "server": "https://github.com/FaisalMahamudCS/melbourne-limolink-server"
+    },
+    {
+        "_id": 6,
+        "name": "Permisgo - Driving School Platform",
+        "image": "https://i.ibb.co/Lrvjbjc/Screenshot-953.png",
+        "image1": "https://i.ibb.co/1vRrqRh/Screenshot-959.png",
+        "image2": "https://i.ibb.co/KxZCk5s/Screenshot-961.png",
+        "description": "Platform for driving school operations with lesson scheduling, student-instructor portals, payment integration, and progress tracking system.",
+        "live": "https://permisgo.com/",
+        "client": "https://github.com/FaisalMahamudCS/permisgo-client",
+        "server": "https://github.com/FaisalMahamudCS/permisgo-server"
+    },
+    {
+        "_id": 7,
+        "name": "Science Master (Ed-Tech)",
+        "image": "https://i.ibb.co/nBjmKfR/Screenshot-954.png",
+        "image1": "https://i.ibb.co/16p2Gwz/Screenshot-956.png",
+        "image2": "https://i.ibb.co/xCDPHZP/Screenshot-957.png",
+        "description": "Educational platform with interactive exams, batch assignments, secure payment processing, and comprehensive learning management system.",
+        "live": "https://sciencemaster.com/",
+        "client": "https://github.com/FaisalMahamudCS/science-master-client",
+        "server": "https://github.com/FaisalMahamudCS/science-master-server"
+    },
+    {
+        "_id": 8,
         "name": "Computer Assembler",
         "image": "https://i.ibb.co/DYXzGkr/Screenshot-949.png",
         "image1": "https://i.ibb.co/sq2jGmw/Screenshot-950.png",
@@ -55,7 +88,7 @@
         "server": "https://github.com/FaisalMahamudCS/computer-assembler-server"
     },
     {
-        "_id": 6,
+        "_id": 9,
         "name": "Tennis Inventory",
         "image": "https://i.ibb.co/Lrvjbjc/Screenshot-953.png",
         "image1": "https://i.ibb.co/1vRrqRh/Screenshot-959.png",
@@ -66,7 +99,7 @@
         "server": "https://github.com/FaisalMahamudCS/tennis-inventory-server"
     },
     {
-        "_id": 7,
+        "_id": 10,
         "name": "Faisal Photography",
         "image": "https://i.ibb.co/nBjmKfR/Screenshot-954.png",
         "image1": "https://i.ibb.co/16p2Gwz/Screenshot-956.png",
@@ -77,7 +110,7 @@
         "server": ""
     },
     {
-        "_id": 8,
+        "_id": 11,
         "name": "Skillamplify",
         "image": "https://i.ibb.co/ZxWSCv9/Screenshot-3573.png",
         "image1": "https://i.ibb.co/27SY8WW/Screenshot-3574.png",
