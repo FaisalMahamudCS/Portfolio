@@ -1,51 +1,90 @@
 [
     {
-     "_id":1,   
-     "name":"Computer Assembler",
-     "image":"https://i.ibb.co/DYXzGkr/Screenshot-949.png",
-     "image1":"https://i.ibb.co/sq2jGmw/Screenshot-950.png",
-     "image2":"https://i.ibb.co/FXtBqgt/Screenshot-951.png",
-     "description":"Computer Assembler is a manufacturer website",
-     "live":"",
-     "client":"",
-     "server":""
+        "_id": 1,
+        "name": "Agricultural Marketplace Platform",
+        "image": "https://i.ibb.co/DYXzGkr/Screenshot-949.png",
+        "image1": "https://i.ibb.co/sq2jGmw/Screenshot-950.png",
+        "image2": "https://i.ibb.co/FXtBqgt/Screenshot-951.png",
+        "description": "Comprehensive agro-tech marketplace with real-time market price tracking, interactive data visualizations using Chart.js, and farmer-expert consultation system with AI-powered chatbot.",
+        "live": "https://agrigate-network.com/",
+        "client": "https://github.com/FaisalMahamudCS/agrigate-marketplace-client",
+        "server": "https://github.com/FaisalMahamudCS/agrigate-marketplace-server"
     },
     {
-    "_id":2,
-    "name":"Tennis Inventory",
-    "image":"https://i.ibb.co/Lrvjbjc/Screenshot-953.png",
-    "image1":"https://i.ibb.co/1vRrqRh/Screenshot-959.png",
-    "image2":"https://i.ibb.co/KxZCk5s/Screenshot-961.png",
-    "description":"Tennis inventory is a inventory website.",
-    "live":"",
-    "client":"",
-    "server":""
-    
-
-    
+        "_id": 2,
+        "name": "Enterprise ERP System",
+        "image": "https://i.ibb.co/Lrvjbjc/Screenshot-953.png",
+        "image1": "https://i.ibb.co/1vRrqRh/Screenshot-959.png",
+        "image2": "https://i.ibb.co/KxZCk5s/Screenshot-961.png",
+        "description": "Full-scale ERP with employee management, inventory tracking, stock management, optimized PostgreSQL schemas with JWT authentication and RBAC.",
+        "live": "https://erp.agrigate-network.com/",
+        "client": "https://github.com/FaisalMahamudCS/erp-system-client",
+        "server": "https://github.com/FaisalMahamudCS/erp-system-server"
     },
     {
-        "_id":3,
-        "name":"Faisal Photography",
-         "image":"https://i.ibb.co/nBjmKfR/Screenshot-954.png",
-         "image1":"https://i.ibb.co/16p2Gwz/Screenshot-956.png",
-         "image2":"https://i.ibb.co/xCDPHZP/Screenshot-957.png",
-      "description":"Faisal photography is a independent photographer website" ,
-         "live":"",
-         "client":"",
-         "server":""     
+        "_id": 3,
+        "name": "TWIN Flow - Cardiac Care Platform",
+        "image": "https://i.ibb.co/nBjmKfR/Screenshot-954.png",
+        "image1": "https://i.ibb.co/16p2Gwz/Screenshot-956.png",
+        "image2": "https://i.ibb.co/xCDPHZP/Screenshot-957.png",
+        "description": "HIPAA-compliant patient enrollment and service management modules with interactive dashboards for cardiac rhythm analysis and device management systems.",
+        "live": "https://twinflow-healthcare.com/",
+        "client": "https://github.com/FaisalMahamudCS/twinflow-client",
+        "server": "https://github.com/FaisalMahamudCS/twinflow-server"
     },
     {
-        "_id":4,
-        "name":"Skillamplify",
-         "image":"https://i.ibb.co/ZxWSCv9/Screenshot-3573.png",
-         "image1":"https://i.ibb.co/27SY8WW/Screenshot-3574.png",
-         "image2":"https://i.ibb.co/bX61fvs/Screenshot-3575.png",
-      "description":"Skillamplify is a E-learning website" ,
-         "live":"",
-         "client":"",
-         "server":""     
+        "_id": 4,
+        "name": "AI-Powered Agricultural Chatbot",
+        "image": "https://i.ibb.co/ZxWSCv9/Screenshot-3573.png",
+        "image1": "https://i.ibb.co/27SY8WW/Screenshot-3574.png",
+        "image2": "https://i.ibb.co/bX61fvs/Screenshot-3575.png",
+        "description": "Integrated AI-powered chatbot using FastAPI and MongoDB for farmer consultation services with LangChain for agricultural guidance.",
+        "live": "https://agri-chatbot.agrigate-network.com/",
+        "client": "https://github.com/FaisalMahamudCS/agri-chatbot-client",
+        "server": "https://github.com/FaisalMahamudCS/agri-chatbot-server"
+    },
+    {
+        "_id": 5,
+        "name": "Computer Assembler",
+        "image": "https://i.ibb.co/DYXzGkr/Screenshot-949.png",
+        "image1": "https://i.ibb.co/sq2jGmw/Screenshot-950.png",
+        "image2": "https://i.ibb.co/FXtBqgt/Screenshot-951.png",
+        "description": "Computer Assembler is a manufacturer website. Manufacturer can sell product, delete product",
+        "live": "https://computer-manufacturer.web.app/",
+        "client": "https://github.com/FaisalMahamudCS/computer-assembler-manufacturer-client",
+        "server": "https://github.com/FaisalMahamudCS/computer-assembler-server"
+    },
+    {
+        "_id": 6,
+        "name": "Tennis Inventory",
+        "image": "https://i.ibb.co/Lrvjbjc/Screenshot-953.png",
+        "image1": "https://i.ibb.co/1vRrqRh/Screenshot-959.png",
+        "image2": "https://i.ibb.co/KxZCk5s/Screenshot-961.png",
+        "description": "Tennis inventory is an inventory website. User can login and restock product",
+        "live": "https://sports-gear-inventory.web.app/",
+        "client": "https://github.com/FaisalMahamudCS/tennis-inventory-client",
+        "server": "https://github.com/FaisalMahamudCS/tennis-inventory-server"
+    },
+    {
+        "_id": 7,
+        "name": "Faisal Photography",
+        "image": "https://i.ibb.co/nBjmKfR/Screenshot-954.png",
+        "image1": "https://i.ibb.co/16p2Gwz/Screenshot-956.png",
+        "image2": "https://i.ibb.co/xCDPHZP/Screenshot-957.png",
+        "description": "Faisal photography is an independent photographer website. It shows his work and takes service",
+        "live": "https://fir-auth-photo.web.app/",
+        "client": "https://github.com/FaisalMahamudCS/Faisal-photography",
+        "server": ""
+    },
+    {
+        "_id": 8,
+        "name": "Skillamplify",
+        "image": "https://i.ibb.co/ZxWSCv9/Screenshot-3573.png",
+        "image1": "https://i.ibb.co/27SY8WW/Screenshot-3574.png",
+        "image2": "https://i.ibb.co/bX61fvs/Screenshot-3575.png",
+        "description": "Skillamplify is an E-learning website. User can login and Enroll Courses and learn",
+        "live": "https://sports-gear-inventory.web.app/",
+        "client": "https://github.com/FaisalMahamudCS/skillamplify-client",
+        "server": "https://github.com/FaisalMahamudCS/skillamplify-server"
     }
-  
-
 ]
