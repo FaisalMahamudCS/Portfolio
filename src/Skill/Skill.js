@@ -166,7 +166,7 @@ const Skill = () => {
 
           <div className="skill-card">
             <img
-              src="https://i.ibb.co/9qb64JD/3069648-circle-laravel-programming-round-icon-icon.png"
+              src="https://i.ibb.co/zT5HrPdb/aws.jpg"
               alt="AWS"
               className="skill-icon"
             />
@@ -175,7 +175,7 @@ const Skill = () => {
 
           <div className="skill-card">
             <img
-              src="https://i.ibb.co/9TfBzk3/1012812-code-development-logo-php-icon.png"
+              src="https://i.ibb.co/23tywzq8/docker.png"
               alt="Docker"
               className="skill-icon"
             />
@@ -202,7 +202,7 @@ const Skill = () => {
 
           <div className="skill-card">
             <img
-              src="https://i.ibb.co/cJGszs2/1174949-js-react-js-logo-react-react-native-icon-3.png"
+              src="https://i.ibb.co/TMLn2VNy/nextjs.png"
               alt="Next.js"
               className="skill-icon"
             />
@@ -220,7 +220,7 @@ const Skill = () => {
 
           <div className="skill-card">
             <img
-              src="https://i.ibb.co/Zh0f580/kisspng-express-js-node-js-javascript-session-web-applicat-5ae68d868c1d29-5946193015250589505739-1.png"
+              src="https://i.ibb.co/fVVwqvMD/strapi.png"
               alt="Strapi.js"
               className="skill-icon"
             />
@@ -252,6 +252,33 @@ const Skill = () => {
               className="skill-icon"
             />
             <span className="skill-name">Zustand</span>
+          </div>
+
+          <div className="skill-card">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png" // Example AI icon
+              alt="AI"
+              className="skill-icon"
+            />
+            <span className="skill-name">AI</span>
+          </div>
+
+          <div className="skill-card">
+            <img
+              src="https://i.ibb.co/SDBxm3HC/langchain.png" // LangChain color logo (dark mode)
+              alt="LangChain"
+              className="skill-icon"
+            />
+            <span className="skill-name">LangChain</span>
+          </div>
+
+          <div className="skill-card">
+            <img
+              src="https://i.ibb.co/SDBxm3HC/langchain.png" // LangGraph color logo (dark mode)
+              alt="LangGraph"
+              className="skill-icon"
+            />
+            <span className="skill-name">LangGraph</span>
           </div>
         </div>
       </div>
