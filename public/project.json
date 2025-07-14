@@ -4,7 +4,7 @@
         "name": "Agricultural Marketplace Platform",
         "image": "https://i.ibb.co/g14HfQt/Whats-App-Image-2025-07-12-at-23-14-34-6319b222.jpg",
         "description": "Comprehensive agro-tech marketplace with real-time market price tracking, interactive data visualizations using Chart.js, and farmer-expert consultation system with AI-powered chatbot.",
-        "live": "https://agrigate-network.com/"
+        "live": "https://play.google.com/store/apps/details?id=com.app.agrigate&hl=en"
     },
     {
         "id": 2,
@@ -23,9 +23,9 @@
     {
         "id": 4,
         "name": "AI-Powered Agricultural Chatbot",
-        "image": "https://i.ibb.co/QpDj8GW/Screenshot-939.png",
-        "description": "Integrated AI-powered chatbot using FastAPI and MongoDB for farmer consultation services with LangChain for agricultural guidance.",
-        "live": "https://agri-chatbot.agrigate-network.com/"
+        "image": "https://i.ibb.co/nMc793pC/AI-weather-result.png",
+        "description": "Integrated AI-powered chatbot using FastAPI and MongoDB for farmer consultation services with LangChain for agricultural guidance, Realtime Price Update from real database ,FAQ ,Marketplace realtime update .",
+        "live": "https://play.google.com/store/apps/details?id=com.app.agrigate&hl=en"
     },
     {
         "id": 5,
@@ -49,30 +49,33 @@
         "live": "https://sciencemaster.com/"
     },
     {
+
         "id": 8,
         "name": "Computer Assembler",
-        "image": "https://i.ibb.co/QpDj8GW/Screenshot-939.png",
+        "image": "https://i.ibb.co/yB41bg6/Screenshot-938.png",
         "description": "Computer Assembler is a manufacturer website. Manufacturer can sell product, delete product",
         "live": "https://computer-manufacturer.web.app/"
     },
     {
         "id": 9,
         "name": "Tennis Inventory",
-        "image": "https://i.ibb.co/yB41bg6/Screenshot-938.png",
+                "image": "https://i.ibb.co/YNzqD1Y/Screenshot-941.png",
+
+
         "description": "Tennis inventory is an inventory website. User can login and restock product",
         "live": "https://sports-gear-inventory.web.app/"
     },
     {
         "id": 10,
         "name": "Faisal Photography",
-        "image": "https://i.ibb.co/2Y1Y8f5/Screenshot-3569.png",
+        "image":"https://i.ibb.co/QpDj8GW/Screenshot-939.png",
         "description": "Faisal photography is an independent photographer website. It shows his work and takes service",
         "live": "https://fir-auth-photo.web.app/"
     },
     {
         "id": 11,
         "name": "Skillamplify",
-        "image": "https://i.ibb.co/YNzqD1Y/Screenshot-941.png",
+        "image":"https://i.ibb.co/2Y1Y8f5/Screenshot-3569.png",
         "description": "Skillamplify is an E-learning website. User can login and Enroll Courses and learn",
         "live": "https://sports-gear-inventory.web.app/"
     }
