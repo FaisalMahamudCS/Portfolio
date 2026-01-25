@@ -245,7 +245,7 @@ const Banner = () => {
               <img
                 alt="Faisal Mahamud"
                 className="profile-image-round"
-                src="https://i.ibb.co/Kcx5rkvX/Whats-App-Image-2025-02-17-at-11-01-41-6a6c9bee.jpg"
+                src="/protfolio1.png"
               />
             </div>
           </div>
