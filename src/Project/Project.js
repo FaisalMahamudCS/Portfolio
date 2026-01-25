@@ -42,18 +42,17 @@ const Project = () => {
         }
       );
 
-      // Projects grid animation
-      const projectCards = projects.children;
+      // Projects list animation
+      const projectItems = projects.children;
       gsap.fromTo(
-        projectCards,
-        { opacity: 0, y: 100, scale: 0.8 },
+        projectItems,
+        { opacity: 0, x: -50 },
         {
           opacity: 1,
-          y: 0,
-          scale: 1,
-          duration: 0.8,
+          x: 0,
+          duration: 0.6,
           stagger: 0.1,
-          ease: "back.out(1.7)",
+          ease: "power2.out",
           scrollTrigger: {
             trigger: projects,
             start: "top 80%",
@@ -61,29 +60,6 @@ const Project = () => {
           },
         }
       );
-
-      // Hover effects for project cards
-      Array.from(projectCards).forEach((card) => {
-        card.addEventListener("mouseenter", () => {
-          gsap.to(card, {
-            y: -10,
-            scale: 1.02,
-            duration: 0.3,
-            ease: "power2.out",
-            boxShadow: "0 20px 40px rgba(255, 193, 7, 0.2)",
-          });
-        });
-
-        card.addEventListener("mouseleave", () => {
-          gsap.to(card, {
-            y: 0,
-            scale: 1,
-            duration: 0.3,
-            ease: "power2.out",
-            boxShadow: "0 10px 30px rgba(0, 0, 0, 0.3)",
-          });
-        });
-      });
 
       return () => {
         ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
@@ -102,7 +78,7 @@ const Project = () => {
           My Projects
         </h5>
 
-        <div ref={projectsRef} className="projects-grid">
+        <div ref={projectsRef} className="projects-list">
           {project.map((project) => (
             <Projects key={project.id} project={project} />
           ))}

@@ -1,67 +1,62 @@
 [
     {
-     "_id":1,   
-     "name":"Computer Assembler",
+     "_id":1,
+     "name":"Agrigate App",
      "image":"https://i.ibb.co/DYXzGkr/Screenshot-949.png",
      "image1":"https://i.ibb.co/sq2jGmw/Screenshot-950.png",
      "image2":"https://i.ibb.co/FXtBqgt/Screenshot-951.png",
-     "description":"Computer Assembler is a manufacturer website",
-     "live":"",
+     "description":"Agricultural platform with real-time weather, market prices, marketplace, and AI chatbot. Built with Python, FastAPI, Node.js, Express, Docker, AWS, Langgraph, and Langchain.",
+     "live":"https://agrigate.network",
      "client":"",
-     "server":""
+     "server":"",
+     "stack":["Python", "FastAPI", "Node.js", "Express", "Docker", "AWS", "Langgraph", "Langchain"]
     },
     {
     "_id":2,
-    "name":"Tennis Inventory",
+    "name":"Muslim Bangla",
     "image":"https://i.ibb.co/Lrvjbjc/Screenshot-953.png",
     "image1":"https://i.ibb.co/1vRrqRh/Screenshot-959.png",
     "image2":"https://i.ibb.co/KxZCk5s/Screenshot-961.png",
-    "description":"Tennis inventory is a inventory website.",
-    "live":"",
+    "description":"Large-scale Islamic content and community platform serving millions of users across web and mobile. Built and scaled high-traffic backend services with a focus on performance and reliability. Implemented secure REST APIs using Node.js and NestJS with RBAC and developed SEO-friendly, optimized front-end interfaces.",
+    "live":"https://muslimbangla.com",
     "client":"",
-    "server":""
-    
-
-    
+    "server":"",
+    "stack":["Node.js", "NestJS", "PostgreSQL", "MySQL", "React", "Docker", "AWS"]
     },
     {
         "_id":3,
-        "name":"Faisal Photography",
+        "name":"Twin Flow AI",
          "image":"https://i.ibb.co/nBjmKfR/Screenshot-954.png",
          "image1":"https://i.ibb.co/16p2Gwz/Screenshot-956.png",
          "image2":"https://i.ibb.co/xCDPHZP/Screenshot-957.png",
-      "description":"Faisal photography is a independent photographer website" ,
-         "live":"",
+      "description":"AI/ML cardiac rhythm analysis with multi-role dashboards and patient-doctor dashboards, MIS, AI insights, ECG analysis, Realtime Queue as well as real-time alerts. HIPAA-compliant healthcare platform handling sensitive data with strict access control and encryption." ,
+         "live":"https://twinflow.ai",
          "client":"",
-         "server":""     
+         "server":"",
+         "stack":["React", "Next.js", "Node.js", "Express", "PostgreSQL", "AWS", "Docker"]
     },
     {
         "_id":4,
-        "name":"Laptop World",
+        "name":"Permisgo",
          "image":"https://i.ibb.co/G5B9dz3/Screenshot-969.png",
          "image1":"https://i.ibb.co/McMGtpM/Screenshot-970.png",
          "image2":"https://i.ibb.co/qy8V1tR/Screenshot-971.png",
-      "description":"Laptop world is a review website of laptop.Here it is a SPA" ,
-         "live":"",
+      "description":"Driving lesson platform with dynamic scheduling, role-based portals, secure payments, and dashboards. Built with modern stack including Next.js, React.js, Node.js, Prisma, PostgreSQL, Tailwind, AWS, and Docker." ,
+         "live":"https://permisgo.com",
          "client":"",
-         "server":""     
+         "server":"",
+         "stack":["Next.js", "React.js", "Node.js", "Prisma", "PostgreSQL", "Tailwind", "AWS", "Docker"]
     },
     {
         "_id":5,
-        "name":"Watch Store",
+        "name":"Melbourne Limolink",
          "image":"https://i.ibb.co/27YJgKm/Screenshot-972.png",
          "image1":"https://i.ibb.co/6XQs9mb/Screenshot-973.png",
          "image2":"https://i.ibb.co/mJXY1pd/Screenshot-974.png",
-      "description":"Watch Store is a SPA website for adding product to cart." ,
-         "live":"",
+      "description":"Chauffeur service platform with fleet management, real-time booking, and secure dashboards. Built with NestJS, ReactJS, PostgreSQL, and Docker for scalable and reliable service delivery." ,
+         "live":"https://melbournelimolink.com",
          "client":"",
-         "server":""     
+         "server":"",
+         "stack":["NestJS", "ReactJS", "PostgreSQL", "Docker"]
     }
-   
-
-
-
-
-  
-
 ]

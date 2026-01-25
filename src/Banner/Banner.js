@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { AiOutlineMail } from "react-icons/ai";
@@ -16,14 +16,6 @@ const Banner = () => {
   const socialRef = useRef(null);
   const buttonRef = useRef(null);
   const typewriterRef = useRef(null);
-  const [currentTextIndex, setCurrentTextIndex] = useState(0);
-
-  const typewriterTexts = [
-    "Senior Full Stack Developer",
-    "PERN Stack Specialist",
-    "Agricultural Technology Expert",
-    "DevOps Engineer",
-  ];
 
   useEffect(() => {
     const tl = gsap.timeline();
@@ -36,14 +28,14 @@ const Banner = () => {
     )
       .fromTo(
         textRef.current,
-        { opacity: 0, x: -100 },
-        { opacity: 1, x: 0, duration: 0.8, ease: "back.out(1.7)" },
+        { opacity: 0, x: -50 },
+        { opacity: 1, x: 0, duration: 0.8, ease: "power2.out" },
         "-=0.5"
       )
       .fromTo(
         imageRef.current,
-        { opacity: 0, x: 100, scale: 0.8 },
-        { opacity: 1, x: 0, scale: 1, duration: 0.8, ease: "back.out(1.7)" },
+        { opacity: 0, x: 50 },
+        { opacity: 1, x: 0, duration: 0.8, ease: "power2.out" },
         "-=0.6"
       )
       .fromTo(
@@ -106,14 +98,14 @@ const Banner = () => {
       });
     });
 
-    // Scroll-triggered animations
+    // Scroll-triggered animations for image
     ScrollTrigger.create({
       trigger: bannerRef.current,
       start: "top center",
       end: "bottom center",
       onEnter: () => {
         gsap.to(imageRef.current, {
-          rotation: 5,
+          scale: 1.05,
           duration: 2,
           ease: "power2.out",
         });
@@ -128,6 +120,14 @@ const Banner = () => {
 
   // Typewriter effect
   useEffect(() => {
+    const typewriterTexts = [
+      "Full-Stack Engineer",
+      "React & Node.js Specialist",
+      "Microservices Architect",
+      "DevOps Engineer",
+      "TypeScript Expert",
+    ];
+
     let currentIndex = 0;
     let currentText = "";
     let isDeleting = false;
@@ -174,72 +174,80 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="p-5 row justify-content-evenly align-items-center container mx-auto overflow-hidden">
-        <div ref={textRef} className="col-12 col-md-6 banner-text">
-          <div className="greeting-text">
-            <h4 className="mb-0">Hello! I'm</h4>
-            <h1 className="name-text">Faisal Mahamud</h1>
+      <div className="p-5 container mx-auto overflow-hidden">
+        <div className="row justify-content-center align-items-center">
+          <div ref={textRef} className="col-12 col-lg-6 banner-text">
+            <div className="greeting-text">
+              <h4 className="mb-0">Hello! I'm</h4>
+              <h1 className="name-text">Faisal Mahamud</h1>
+            </div>
+
+            <div className="typewriter-container">
+              <h3>
+                <span ref={typewriterRef} className="typewriter-text"></span>
+                <span className="cursor">|</span>
+              </h3>
+            </div>
+
+            <p className="description-text">
+              Senior Full-Stack / Backend Engineer with 4+ years of experience
+              designing and scaling SaaS platforms and distributed systems.
+              Strong expertise in Node.js microservices, React, event-driven
+              architectures (RabbitMQ), circuit breaker patterns, and
+              cloud-native deployments on AWS. Proven ability to own production
+              systems end-to-end, improve reliability, optimize cloud costs, and
+              collaborate with cross-functional and offshore teams.
+            </p>
+
+            <div
+              ref={socialRef}
+              className="social-icons justify-content-center"
+            >
+              <a
+                href="mailto:faisal.mahamud.cs@gmail.com"
+                target="blank"
+                className="social-link"
+              >
+                <AiOutlineMail className="social-icon" size={40} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/faisalmahamud/"
+                target="blank"
+                className="social-link"
+              >
+                <GrLinkedin className="social-icon" size={40} />
+              </a>
+              <a
+                href="https://github.com/FaisalMahamudCS"
+                className="social-link"
+                target="blank"
+              >
+                <GoMarkGithub className="social-icon" size={40} />
+              </a>
+            </div>
+
+            <a
+              ref={buttonRef}
+              href="https://drive.google.com/uc?export=download&id=1RxA1WoIduLTmuVZN7b5ba88ajcF1k5ke"
+              download
+              className="download-btn"
+            >
+              <span className="btn-text">Download Resume</span>
+              <span className="btn-icon">📄</span>
+            </a>
           </div>
 
-          <div className="typewriter-container">
-            <h3>
-              <span ref={typewriterRef} className="typewriter-text"></span>
-              <span className="cursor">|</span>
-            </h3>
-          </div>
-
-          <p className="description-text">
-            Senior Full Stack Developer with 3+ years of PERN stack expertise,
-            specializing in agricultural technology systems. Proven experience
-            in building scalable web applications with interactive data
-            visualizations, RESTful APIs, and responsive UI/UX. Strong
-            background in PostgreSQL optimization, AWS deployment, and CI/CD
-            pipelines.
-          </p>
-
-          <div ref={socialRef} className="social-icons">
-            <a
-              href="mailto:faisal.mahamud.cs@gmail.com"
-              target="blank"
-              className="social-link"
-            >
-              <AiOutlineMail className="social-icon" size={40} />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/faisal-mahamud-cs/"
-              target="blank"
-              className="social-link"
-            >
-              <GrLinkedin className="social-icon" size={40} />
-            </a>
-            <a
-              href="https://github.com/FaisalMahamudCS"
-              className="social-link"
-              target="blank"
-            >
-              <GoMarkGithub className="social-icon" size={40} />
-            </a>
-          </div>
-
-          <a
-            ref={buttonRef}
-            href="https://drive.google.com/uc?export=download&id=1RxA1WoIduLTmuVZN7b5ba88ajcF1k5ke"
-            download
-            className="download-btn"
+          <div
+            ref={imageRef}
+            className="col-12 col-lg-6 banner-image-container"
           >
-            <span className="btn-text">Download Resume</span>
-            <span className="btn-icon">📄</span>
-          </a>
-        </div>
-
-        <div ref={imageRef} className="col-12 col-md-6 banner-image-container">
-          <div className="profile-image-wrapper">
-            <img
-              alt="Faisal Mahamud"
-              className="profile-image"
-              src="https://i.ibb.co/Kcx5rkvX/Whats-App-Image-2025-02-17-at-11-01-41-6a6c9bee.jpg"
-            />
-            <div className="image-glow"></div>
+            <div className="profile-image-wrapper">
+              <img
+                alt="Faisal Mahamud"
+                className="profile-image-round"
+                src="https://i.ibb.co/Kcx5rkvX/Whats-App-Image-2025-02-17-at-11-01-41-6a6c9bee.jpg"
+              />
+            </div>
           </div>
         </div>
       </div>

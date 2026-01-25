@@ -1,82 +1,114 @@
 [
     {
         "id": 1,
-        "name": "Agricultural Marketplace Platform",
-        "image": "https://i.ibb.co/g14HfQt/Whats-App-Image-2025-07-12-at-23-14-34-6319b222.jpg",
-        "description": "Comprehensive agro-tech marketplace with real-time market price tracking, interactive data visualizations using Chart.js, and farmer-expert consultation system with AI-powered chatbot.",
-        "live": "https://play.google.com/store/apps/details?id=com.app.agrigate&hl=en"
+        "name": "Ducorp Trading Website",
+        "description": "Developed and deployed a high-performance, scalable corporate website for a UAE-based general trading company in the agricultural and commodity supply sector. Built with Next.js 15, featuring server-side rendering, global CDN delivery, and a robust AWS-based deployment architecture with load balancing support.",
+        "live": "https://ducorp.ae",
+        "tech": ["Next.js 15", "React", "Tailwind CSS", "Framer Motion", "GSAP", "AWS EC2", "AWS ALB", "AWS Route 53", "AWS CloudFront", "AWS S3", "Nginx", "PM2"]
     },
     {
         "id": 2,
-        "name": "Enterprise ERP System",
-        "image": "https://i.ibb.co/3mv7gmXv/Screenshot-2025-07-12-225456.png",
-        "description": "Full-scale ERP with employee management, inventory tracking, stock management, optimized PostgreSQL schemas with JWT authentication and RBAC.",
-        "live": "https://erp.agrigate.network/"
+        "name": "Agrigate Multi-Vendor E-Commerce Platform",
+        "description": "Led development of a next-generation multi-vendor agricultural marketplace enabling vendors to manage stores, inventory, orders, and engage with buyers. Features AI-driven recommendations, vendor-buyer chat system, secure payments, and comprehensive admin analytics dashboard.",
+        "live": "https://agrigate.network",
+        "tech": ["Next.js 15", "Tailwind CSS", "ShadCN/UI", "Zustand", "NestJS", "Node.js", "Prisma ORM", "PostgreSQL", "MongoDB", "JWT", "Google OAuth", "Docker", "GitHub Actions", "AWS EC2", "AWS ECR", "AWS ALB", "LangChain"]
     },
     {
         "id": 3,
-        "name": "TWIN Flow - Cardiac Care Platform",
-        "image": "https://i.ibb.co/vF0ZcBQ/Screenshot-2025-07-12-230912.png",
-        "description": "HIPAA-compliant patient enrollment and service management modules with interactive dashboards for cardiac rhythm analysis and device management systems.",
-        "live": "https://twinflow.techindia.com/"
+        "name": "Agrigate APP",
+        "description": "Led backend development and DevOps for a mobile agriculture platform supporting farmers, agri-experts, and suppliers. Features crop management, expert consultations, online marketplace, and AI chatbot integration. Implemented CI/CD pipelines, containerized deployment, and comprehensive monitoring.",
+        "live": "https://play.google.com/store/apps/details?id=com.app.agrigate",
+        "tech": ["Node.js", "Express", "MongoDB", "Mongoose", "NestJS", "PostgreSQL", "TypeORM", "Firebase", "Docker", "GitHub Actions", "AWS EC2", "AWS RDS", "AWS S3", "NGINX", "Python", "LangChain", "FastAPI"]
     },
     {
         "id": 4,
-        "name": "AI-Powered Agricultural Chatbot",
-        "image": "https://i.ibb.co/nMc793pC/AI-weather-result.png",
-        "description": "Integrated AI-powered chatbot using FastAPI and MongoDB for farmer consultation services with LangChain for agricultural guidance, Realtime Price Update from real database ,FAQ ,Marketplace realtime update .",
-        "live": "https://play.google.com/store/apps/details?id=com.app.agrigate&hl=en"
+        "name": "Agrigate ERP",
+        "description": "Led development of comprehensive ERP modules for agriculture business management including inventory, stock, requisition management, and role-based dashboards. Integrated AI-assisted analytics for inventory forecasting, reducing stock-outs by 25% and achieving 80% cost reduction through cloud optimization.",
+        "live": "https://erp.agrigate.network",
+        "tech": ["Django REST Framework", "React", "PostgreSQL", "AWS", "Docker", "CI/CD", "Tailwind CSS"]
     },
     {
         "id": 5,
-        "name": "Melbourne Limolink",
-        "image": "https://i.ibb.co/gZKSSY0H/Screenshot-2025-07-12-231938.png",
-        "description": "Comprehensive web application for premium chauffeur service provider with real-time booking, fleet management, payment integration, and role-based access control.",
-        "live": "https://melbournelimolink.com.au/"
+        "name": "Agrigate Network Website",
+        "description": "Developed digital marketplace with AI-powered insights, educational hub, smart supply chain features, and real-time auctions. Integrated Strapi CMS for dynamic content management and automated CI/CD deployment for seamless releases.",
+        "live": "https://agrigate.network",
+        "tech": ["Next.js", "LangChain", "AI", "AWS S3", "Strapi.js", "CI/CD"]
     },
     {
         "id": 6,
-        "name": "Permisgo - Driving School Platform",
-        "image": "https://i.ibb.co/bR1gkx55/Screenshot-2025-07-12-232720.png",
-        "description": "Platform for driving school operations with lesson scheduling, student-instructor portals, payment integration, and progress tracking system.",
-        "live": "https://permisgo.fr/"
+        "name": "AI-Driven Poultry Farm Monitoring System",
+        "description": "Designed and deployed a full-stack AI + IoT platform for real-time poultry farm monitoring using computer vision, audio analysis, and sensor data. Features YOLOv8 for chicken counting, edge AI processing, cloud ML pipelines, and real-time alerting system.",
+        "live": "",
+        "tech": ["Python", "PyTorch", "TensorFlow", "YOLOv8", "OpenCV", "Librosa", "Jetson Nano", "Raspberry Pi", "ESP32", "LoRaWAN", "Node.js", "FastAPI", "Django", "Next.js", "MQTT", "PostgreSQL", "MongoDB", "AWS S3", "AWS EC2", "AWS Lambda", "Docker"]
     },
     {
         "id": 7,
-        "name": "Science Master (Ed-Tech)",
-        "image": "https://i.ibb.co/jPcD8GzS/Whats-App-Image-2025-07-12-at-23-33-36-f528564a.jpg",
-        "description": "Educational platform with interactive exams, batch assignments, secure payment processing, and comprehensive learning management system.",
-        "live": "https://sciencemaster.com/"
+        "name": "Twin Flow AI",
+        "description": "Led development of HIPAA-compliant digital treatment planning platform for cardiac care. Built patient enrollment, service management, device tracking, and billing features. Integrated AI/ML algorithms for cardiac rhythm analysis, improving workflow efficiency by 20% and reducing release time by 20%.",
+        "live": "https://twinflow.techindia.com",
+        "tech": ["Node.js", "Next.js", "PostgreSQL", "Python", "Docker", "CI/CD", "GitHub Actions", "AWS", "AI/ML", "Socket.IO"]
     },
     {
-
         "id": 8,
-        "name": "Computer Assembler",
-        "image": "https://i.ibb.co/yB41bg6/Screenshot-938.png",
-        "description": "Computer Assembler is a manufacturer website. Manufacturer can sell product, delete product",
-        "live": "https://computer-manufacturer.web.app/"
+        "name": "Twin Flow MIS",
+        "description": "Developed Hospital Management & MIS system with patient-doctor dashboards, real-time cardiac rhythm monitoring, and automated alerts. Integrated AI/ML algorithms for cardiac rhythm analysis with role-based access for doctors, patients, and admins.",
+        "live": "",
+        "tech": ["React.js", "Node.js", "Socket.IO", "PostgreSQL", "Docker", "CI/CD", "AI/ML"]
     },
     {
         "id": 9,
-        "name": "Tennis Inventory",
-                "image": "https://i.ibb.co/YNzqD1Y/Screenshot-941.png",
-
-
-        "description": "Tennis inventory is an inventory website. User can login and restock product",
-        "live": "https://sports-gear-inventory.web.app/"
+        "name": "Muslim Bangla",
+        "description": "Developed and maintained comprehensive Islamic platform for Bengali-speaking users, offering Quran, Hadith, prayer times, duas, and Islamic content. Implemented cross-platform features including Quran audio recitations, Qibla direction, and prayer notifications. Reached millions of active users worldwide.",
+        "live": "https://muslimbangla.com",
+        "tech": ["Node.js", "Next.js", "React.js", "PostgreSQL", "MySQL", "AWS", "Docker"]
     },
     {
         "id": 10,
-        "name": "Faisal Photography",
-        "image":"https://i.ibb.co/QpDj8GW/Screenshot-939.png",
-        "description": "Faisal photography is an independent photographer website. It shows his work and takes service",
-        "live": "https://fir-auth-photo.web.app/"
+        "name": "Melbourne Limolink",
+        "description": "Developed comprehensive web application for premium chauffeur service provider. Features real-time booking system, fleet management, payment integration, and role-based dashboards for admins, drivers, and customers. Integrated third-party APIs for payment processing and map services.",
+        "live": "https://melbournelimolink.com.au",
+        "tech": ["Next.js", "React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "AWS", "Strapi.js", "Zustand", "PayPal"]
     },
     {
         "id": 11,
+        "name": "Permisgo Driving School",
+        "description": "Developed platform for driving school operations with dynamic scheduling, role-specific portals for students and instructors, secure payment integration, and progress tracking. Built efficient database structures using Prisma and PostgreSQL for optimal performance.",
+        "live": "https://permisgo.fr",
+        "tech": ["Next.js", "Tailwind CSS", "NestJS", "Prisma", "PostgreSQL", "Strapi.js", "AWS"]
+    },
+    {
+        "id": 12,
+        "name": "Science Master",
+        "description": "Contributed to backend development of educational platform with interactive exams, batch assignments, and secure payment processing. Implemented JWT-based authentication, exam management modules, and Stripe payment integration. Utilized AWS S3 for efficient media storage.",
+        "live": "https://sciencemaster.com",
+        "tech": ["Node.js", "Express", "Sequelize", "MySQL", "AWS S3", "AWS", "JWT", "Stripe"]
+    },
+    {
+        "id": 13,
         "name": "Skillamplify",
-        "image":"https://i.ibb.co/2Y1Y8f5/Screenshot-3569.png",
-        "description": "Skillamplify is an E-learning website. User can login and Enroll Courses and learn",
-        "live": "https://sports-gear-inventory.web.app/"
+        "description": "E-learning platform with secure login/registration, course browsing and enrollment, and Stripe payment gateway integration. Built with PERN stack ensuring user data protection and seamless user experience.",
+        "live": "",
+        "tech": ["PostgreSQL", "Next.js", "Express.js", "Tailwind CSS", "React.js", "TypeScript", "Node.js", "Sequelize"]
+    },
+    {
+        "id": 14,
+        "name": "Computer Assembler",
+        "description": "MERN stack e-commerce platform with Firebase authentication, Stripe payment gateway, and admin control panel. Features product management, order tracking, and role-based access control with JWT verification.",
+        "live": "",
+        "tech": ["MongoDB", "Express.js", "React.js", "Node.js", "Firebase", "Stripe", "JWT", "Tailwind CSS", "DaisyUI"]
+    },
+    {
+        "id": 15,
+        "name": "Tennis Inventory",
+        "description": "Product stock management system built with MERN stack. Features restock functionality, product tracking, and role-based access control. Authorized users can manage products while maintaining data security.",
+        "live": "",
+        "tech": ["MongoDB", "Express.js", "React.js", "Node.js", "Firebase"]
+    },
+    {
+        "id": 16,
+        "name": "Faisal Photography",
+        "description": "Personal photography website with service checkout feature. Implemented Firebase authentication system with private routes. Users can register, login, and checkout services after authentication.",
+        "live": "",
+        "tech": ["React.js", "Firebase", "Node.js"]
     }
 ]

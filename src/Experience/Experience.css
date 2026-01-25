@@ -1,0 +1,218 @@
+.experience-section {
+  position: relative;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.experience-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.experience-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(20, 20, 30, 0.95) 50%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+
+.experience-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.experience-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffc107;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.experience-list {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.experience-item {
+  position: relative;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.experience-card {
+  background: rgba(20, 20, 30, 0.6);
+  border-left: 3px solid #ffc107;
+  border-radius: 4px;
+  padding: 1.75rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.experience-card:hover {
+  background: rgba(30, 30, 40, 0.8);
+  border-left-color: #ffdb4d;
+  transform: translateX(5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.experience-header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 193, 7, 0.2);
+}
+
+.experience-company-info {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.experience-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffc107;
+  line-height: 1;
+  min-width: 50px;
+  opacity: 0.6;
+}
+
+.experience-details {
+  flex: 1;
+}
+
+.experience-company {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffc107;
+  margin-bottom: 0.5rem;
+}
+
+.experience-position {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.experience-meta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.experience-period,
+.experience-location {
+  font-size: 0.9rem;
+  color: #cccccc;
+  padding: 0.35rem 0.85rem;
+  background: rgba(255, 193, 7, 0.1);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 193, 7, 0.2);
+}
+
+.experience-achievements {
+  margin-top: 1rem;
+}
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.achievement-item {
+  color: #e0e0e0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 0.85rem;
+  padding-left: 1.5rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.achievement-item::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #ffc107;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.achievement-item:hover {
+  color: #ffffff;
+}
+
+.achievement-item:hover::before {
+  color: #ffdb4d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience-card {
+    padding: 1.5rem;
+  }
+
+  .experience-company {
+    font-size: 1.2rem;
+  }
+
+  .experience-position {
+    font-size: 1rem;
+  }
+
+  .experience-number {
+    font-size: 1.5rem;
+    min-width: 40px;
+  }
+
+  .experience-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .experience-section {
+    padding: 50px 0;
+  }
+
+  .experience-card {
+    padding: 1.25rem;
+  }
+
+  .experience-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .experience-company-info {
+    gap: 1rem;
+  }
+
+  .experience-number {
+    font-size: 1.25rem;
+    min-width: 35px;
+  }
+
+  .achievement-item {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}
